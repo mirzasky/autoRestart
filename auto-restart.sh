@@ -1,3 +1,4 @@
+#!/bin/bash
 #skrip cek service down
 
 #bila db mysql mati, hidupkan
