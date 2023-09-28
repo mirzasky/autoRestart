@@ -14,7 +14,12 @@ Masuk dengan akses root :
 ```terminal
   git clone https://github.com/mirzasky/autoRestart.git
   cp ./autoRestart/auto-restart.sh /opt/auto-restart.sh
+```
 
+Beri izin eksekusi :
+
+```terminal
+chmod +x /opt/auto-restart.sh
 ```
 
 Tambah cronjob :
