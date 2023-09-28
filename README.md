@@ -25,6 +25,7 @@ chmod +x /opt/auto-restart.sh
 ```
 
 Tambah cronjob :
+(Pilih teks editor bila diminta, misal 'nano')
 
 ```
 crontab -e
@@ -35,7 +36,12 @@ Isi :
 */1 * * * * bash /opt/auto-restart.sh
 ```
 
+Opsional:
 
+Mengecek apakah sudah dapat dieksekusi:
+ls -l /opt/auto-restart.sh
+Output:
+-rwxrwxr-x 1 root root 346 Sep 29 03:00 /opt/auto-restart.sh
 
 ## Features
 
