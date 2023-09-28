@@ -43,7 +43,8 @@ Mengecek apakah sudah dapat dieksekusi:
 ls -l /opt/auto-restart.sh
 ```
 Output:
-```-rwxrwxr-x 1 root root 346 Sep 29 03:00 /opt/auto-restart.sh```
+```-rwxrwxr-x 1 root root 346 Sep 29 03:00 /opt/auto-restart.sh
+```
 
 ## Features
 
