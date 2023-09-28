@@ -24,7 +24,7 @@ crontab -e
 ```
 Isi : 
 ```
-#cek service nginx dan db mysql berjalan, jika tidak aktfikan.
+#cek service nginx dan db mysql berjalan, jika tidak aktifkan.
 */1 * * * * bash /opt/auto-restart.sh
 ```
 
