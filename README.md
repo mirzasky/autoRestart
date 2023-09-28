@@ -11,9 +11,11 @@ To deploy this project run
 
 Masuk dengan akses root :
 
+Jalankan:
+
 ```terminal
-  git clone https://github.com/mirzasky/autoRestart.git
-  cp ./autoRestart/auto-restart.sh /opt/auto-restart.sh
+wget https://raw.githubusercontent.com/mirzasky/autoRestart/main/auto-restart.sh
+mv auto-restart.sh /opt/auto-restart.sh
 ```
 
 Beri izin eksekusi :
